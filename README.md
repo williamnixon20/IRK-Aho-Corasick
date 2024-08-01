@@ -1,6 +1,5 @@
 # Aho-Corasick Text Finder
-> Task Seleksi Lab IRK created by William,
-versi **1 Agustus 2024**
+Task Seleksi Lab IRK created by William, versi **1 Agustus 2024**
 
 ## 💡 Latar Belakang
 Dalam tugas besar ini, Anda diminta untuk mengimplementasikan algoritma Aho-Corasick untuk mencari suatu set string dari query teks tertentu.
@@ -49,10 +48,14 @@ Secara besar, algoritma ini akan membangun automaton berbasis trie dan state mac
 </div>
 
 ## 📂 Pengerjaan dan Pengumpulan
-- Pengumpulan dilakukan pada webapp seleksi.
-- Buat README untuk dokumentasi yang minimal mencakup cara menjalankan program, dan output hasil uji setiap fitur dari program.
-- Repo private, invite `williamnixon20`.
-- Hubungi untuk demo aplikasi maksimal H+1 setelah pengumpulan. Hubungi id line: (https://line.me/ti/p/-_bBNAlIOI) untuk menjadwalkan demo aplikasi (wajib untuk dinilai).
+1. Buat README untuk dokumentasi yang minimal mencakup cara menjalankan program, dan output hasil uji setiap fitur yang dikerjakan.
+2. Buatlah repositori **private** pada github masing-masing dan invite `williamnixon20` dalam repositori tersebut.
+3. Berkas yang dikumpulkan berupa **link rilis tag ke repositori github** yang telah dibuat dengan ketentuan sebagai berikut.
+    - Memberikan tag `vn` pada commit terakhir Anda setiap kali ingin melakukan submisi dengan `n` adalah jumlah submisi yang telah dilakukan. (contoh: `v1` untuk submisi pertama).
+    - **Tidak menggunakan *url shortener*** (bit.ly, shortlink, atau yang lain) saat melakukan pengumpulan *task*.
+    - Anda dapat melakukan rilis dengan panduan [berikut](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository).
+4. **Lakukan submisi** pada website seleksi IRK dengan menggunakan akun std.stei.itb.ac.id, **lakukan konfirmasi** ke LINE `https://line.me/ti/p/-_bBNAlIOI`, dan **jadwalkan demo** dengan cara yang sama. Lakukan hal yang sama jika membuat rilis yang baru.
+5. Jika terdapat pertanyaan dapat menghubungi LINE `https://line.me/ti/p/-_bBNAlIOI`.
 
 ## 📌 Penilaian
 | Tipe | Aspek | Nilai Maksimum |
