@@ -1,14 +1,15 @@
-# Aho-Corasick Algorithm
+# Aho-Corasick Text Finder
+> Task Seleksi Lab IRK created by William,
+versi **1 Agustus 2024**
 
-## Tugas Kecil Seleksi Lab Ilmu Rekayasa dan Komputasi
+## 💡 Latar Belakang
+Dalam tugas besar ini, Anda diminta untuk mengimplementasikan algoritma Aho-Corasick untuk mencari suatu set string dari query teks tertentu.
 
-### Aho-Corasick Text Finder
+Secara besar, algoritma ini akan membangun automaton berbasis trie dan state machine secara offline. Automaton yang telah dibuat secara offline ini akan bermanfaat ketika melakukan pencarian teks online nantinya, karena tidak perlu melakukan perbandingan indeks satu per satu lagi. Penerapan algoritma ini biasanya dilakukan ketika terdapat sekumpulan database string target yang telah diketahui, misalnya DB sekuens DNA penyakit tertentu, atau database kode binary dari virus.
 
-#### Deskripsi Tugas
-Implementasikan algoritma Aho-Corasick untuk mencari sekumpulan string dari query teks tertentu. Algoritma ini membangun automaton berbasis trie dan state machine secara offline untuk pencarian teks.
-
-#### Fitur Wajib
-1. **Implementasi Algoritma Aho-Corasick:**
+## 📝 Spesifikasi Tugas
+### Fitur Wajib (1750 poin)
+1. **Implementasi Algoritma Aho-Corasick: (1250 poin)**
    - Cari dan cocokkan beberapa pola dari query string dalam teks.
    - Hitung dan tampilkan jumlah kemunculan setiap pola dalam teks.
    - Pencarian string diasumsikan case-insensitive.
@@ -30,27 +31,30 @@ Implementasikan algoritma Aho-Corasick untuk mencari sekumpulan string dari quer
      Pola "aman" ditemukan 0x.
      ```
 
-4. **GUI & Bahasa Pemrograman:**
+4. **GUI & Bahasa Pemrograman: (500 poin)**
    - Buat GUI sederhana untuk operasi fitur wajib.
    - Tidak ada batasan bahasa pemrograman.
 
-#### Bonus
-1. **Highlight Indeks Pola yang Ditemukan:**
+### Fitur Bonus (1000 poin)
+1. **Highlight Indeks Pola yang Ditemukan: (500 poin)**
    - Tandai indeks dalam teks di mana pola ditemukan. Contoh:
      ```
      Pola "saya" ditemukan 1x, ditemukan pada indeks [(0,3)]
      ```
 
-2. **Visualisasi Automaton:**
+2. **Visualisasi Automaton: (500 poin)**
    - Visualisasikan automaton yang terbentuk.
+<div align=center>
+<img  src="https://github.com/user-attachments/assets/ccc9feed-e991-49de-90a3-6aee56c3b821">
+</div>
 
-#### Pengumpulan
+## 📂 Pengerjaan dan Pengumpulan
 - Pengumpulan dilakukan pada webapp seleksi.
-- Buat README untuk dokumentasi pengembangan.
+- Buat README untuk dokumentasi yang minimal mencakup cara menjalankan program, dan output hasil uji setiap fitur dari program.
 - Repo private, invite `williamnixon20`.
-- Hubungi untuk demo aplikasi maksimal H+1 setelah pengumpulan.
+- Hubungi untuk demo aplikasi maksimal H+1 setelah pengumpulan. Hubungi id line: (https://line.me/ti/p/-_bBNAlIOI) untuk menjadwalkan demo aplikasi (wajib untuk dinilai).
 
-#### Penilaian
+## 📌 Penilaian
 | Tipe | Aspek | Nilai Maksimum |
 |------|-------|----------------|
 | Fitur Wajib | Algoritma | 750 |
@@ -60,5 +64,5 @@ Implementasikan algoritma Aho-Corasick untuk mencari sekumpulan string dari quer
 | Bonus | Visualisasi Automaton | 500 |
 | **Total Maksimum** | | **2250** |
 
-#### Misc
+## Lain-lain
 Link google docs spesifikasi: https://docs.google.com/document/d/1Gg7zbre1MScbmMALHUAtucYzIwLhuyxsC6t2YDQ5I9c/edit
