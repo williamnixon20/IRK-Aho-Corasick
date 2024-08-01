@@ -66,6 +66,3 @@ Secara besar, algoritma ini akan membangun automaton berbasis trie dan state mac
 | Bonus | Highlighting Teks | 300 |
 | Bonus | Visualisasi Automaton | 300 |
 | **Total Maksimum** | | **2300** |
-
-## Lain-lain
-Link google docs spesifikasi: https://docs.google.com/document/d/1Gg7zbre1MScbmMALHUAtucYzIwLhuyxsC6t2YDQ5I9c/edit
