@@ -7,8 +7,8 @@ Dalam tugas besar ini, Anda diminta untuk mengimplementasikan algoritma Aho-Cora
 Secara besar, algoritma ini akan membangun automaton berbasis trie dan state machine secara offline. Automaton yang telah dibuat secara offline ini akan bermanfaat ketika melakukan pencarian teks online nantinya, karena tidak perlu melakukan perbandingan indeks satu per satu lagi. Penerapan algoritma ini biasanya dilakukan ketika terdapat sekumpulan database string target yang telah diketahui, misalnya DB sekuens DNA penyakit tertentu, atau database kode binary dari virus.
 
 ## 📝 Spesifikasi Tugas
-### Fitur Wajib (1750 poin)
-1. **Implementasi Algoritma Aho-Corasick: (1250 poin)**
+### Fitur Wajib (1700 poin)
+1. **Implementasi Algoritma Aho-Corasick: (1200 poin)**
    - Cari dan cocokkan beberapa pola dari query string dalam teks.
    - Hitung dan tampilkan jumlah kemunculan setiap pola dalam teks.
    - Pencarian string diasumsikan case-insensitive.
@@ -34,14 +34,14 @@ Secara besar, algoritma ini akan membangun automaton berbasis trie dan state mac
    - Buat GUI sederhana untuk operasi fitur wajib.
    - Tidak ada batasan bahasa pemrograman.
 
-### Fitur Bonus (1000 poin)
-1. **Highlight Indeks Pola yang Ditemukan: (500 poin)**
+### Fitur Bonus (600 poin)
+1. **Highlight Indeks Pola yang Ditemukan: (300 poin)**
    - Tandai indeks dalam teks di mana pola ditemukan. Contoh:
      ```
      Pola "saya" ditemukan 1x, ditemukan pada indeks [(0,3)]
      ```
 
-2. **Visualisasi Automaton: (500 poin)**
+2. **Visualisasi Automaton: (300 poin)**
    - Visualisasikan automaton yang terbentuk.
 <div align=center>
 <img  src="https://github.com/user-attachments/assets/ccc9feed-e991-49de-90a3-6aee56c3b821">
@@ -60,12 +60,12 @@ Secara besar, algoritma ini akan membangun automaton berbasis trie dan state mac
 ## 📌 Penilaian
 | Tipe | Aspek | Nilai Maksimum |
 |------|-------|----------------|
-| Fitur Wajib | Algoritma | 750 |
+| Fitur Wajib | Algoritma | 700 |
 | Fitur Wajib | Kebenaran Program | 500 |
 | Fitur Wajib | GUI | 500 |
-| Bonus | Highlighting Teks | 500 |
-| Bonus | Visualisasi Automaton | 500 |
-| **Total Maksimum** | | **2250** |
+| Bonus | Highlighting Teks | 300 |
+| Bonus | Visualisasi Automaton | 300 |
+| **Total Maksimum** | | **2300** |
 
 ## Lain-lain
 Link google docs spesifikasi: https://docs.google.com/document/d/1Gg7zbre1MScbmMALHUAtucYzIwLhuyxsC6t2YDQ5I9c/edit
